@@ -9,96 +9,235 @@
 <body>
     <header>
         <div class="LOGO">
-            <h1>
                 <figure>
-                    <img src="//theme.zdassets.com/theme_assets/678183/cc59daa07820943e943c2fc283b9079d7003ff76.svg" alt="Discord 헬프 센터 홈 페이지">
+                    <img src="../Discord/img/Main-LOGO.svg" alt="Discord 헬프 센터 홈 페이지">
                 </figure>
                 <span class="hidden">Discord</span>
-            </h1>
         </div>
-        <div class="nav-wrapper">
+        <nav class="nav-wrapper">
             <ul class="nav">
                 <li><a href="#">피드백</a></li>
-                <li><a href="#">한국어</a></li>
+                <li><a href="#">한국어</a>
+                    <figure>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" focusable="false" viewBox="0 0 12 12" class="dropdown-chevron-icon">
+                            <path fill="none" stroke="currentColor" stroke-linecap="round" d="M3 4.5l2.6 2.6c.2.2.5.2.7 0L9 4.5"></path>
+                          </svg>
+                    </figure>
+                </li>
                 <li><a href="#">문의 등록</a></li>
-                <li><a href="#">로그인</a></li>
             </ul>
-        </div>
+            <a href="#">로그인</a>
+        </nav>
     </header>
 
     <main>
         <section id="main-content">
-            <h2 class="main-content-heading">고객 지원 센터</h2>
-            <input type="search">
+            <h1 class="main-content-heading">고객 지원 센터</h1>
+            <form action=""></form>
+                <div class="search-container">
+                    <figure>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" focusable="false" viewBox="0 0 12 12" class="search-iconb" aria-hidden="true">
+                        <circle cx="4.5" cy="4.5" r="4" fill="none" stroke="currentColor"></circle>
+                        <path stroke="currentColor" stroke-linecap="round" d="M11 11L7.5 7.5"></path>
+                        </svg>
+                    </figure>
+                    <input type="search" placeholder="검색">
+                </div>
         </section>
         <section class="intro">
             <h2>도움이 필요하신가요? 저희가 도와드리겠습니다.</h2>
             <p>계정 설정부터 승인까지 Discord와 관련된 모든 것을 문의하세요.
-                <br>Discord를 시작한 지 얼마 안 되어 팁을 찾고 계신가요? 그렇다면, 저희의 <a href="#">초보자를 위한 가이드를 확인해 보세요!</a></p>
+                <br>Discord를 시작한 지 얼마 안 되어 팁을 찾고 계신가요? 그렇다면, 저희의
+                <a href="#" class="guide">초보자를 위한 가이드를 확인해 보세요!</a>
+            </p>
         </section>
         <section class="category-wrapper">
             <article>
                 <a href="//support.discordapp.com/hc/ko/categories/115000193752">
-                      <h3 class="category">공지사항</h3>
-                      <p>들어보세요. 무언가 심상치 않은 일이 벌어지고 있습니다.</p>
-                  </a>
+                    <figure>
+                        <img src="../Discord/img/공지사항.svg" alt="공지사항 아이콘">
+                    </figure>
+                    <h3 class="category">공지사항</h3>
+                    <p>들어보세요. 무언가 심상치 않은 일이 벌어지고 있습니다.</p>
+                </a>
             </article>
             <article>
                 <a href="//support.discordapp.com/hc/ko/categories/200404398">
-                      <h3 class="category">Discord 인터페이스</h3>
-                      <p>이 버튼은 무엇인가요?!</p>
-                  </a>
+                    <figure>
+                        <img src="../Discord/img/인터페이스.svg" alt="인터페이스 아이콘">
+                    </figure>
+                    <h3 class="category">Discord 인터페이스</h3>
+                    <p>이 버튼은 무엇인가요?!</p>
+                </a>
             </article>
             <article>
                 <a href="//support.discordapp.com/hc/ko/categories/200404358">
-                      <h3 class="category">계정 설정</h3>
-                      <p>당신도 당신의 계정도 특별한 눈송이입니다.</p>
-                  </a>
+                    <figure>
+                        <img src="../Discord/img/계정설정.svg" alt="계정설정 아이콘">
+                    </figure>
+                    <h3 class="category">계정 설정</h3>
+                    <p>당신도 당신의 계정도 특별한 눈송이입니다.</p>
+                </a>
             </article>
             <article>
                 <a href="//support.discordapp.com/hc/ko/categories/115000217151">
-                      <h3 class="category">시작하기</h3>
-                      <p>첫 단추를 제대로 끼워야 합니다!</p>
-                  </a>
+                    <figure>
+                        <img src="../Discord/img/시작하기.svg" alt="시작하기 아이콘">
+                    </figure>
+                    <h3 class="category">시작하기</h3>
+                    <p>첫 단추를 제대로 끼워야 합니다!</p>
+                </a>
             </article>
             <article>
                 <a href="//support.discordapp.com/hc/ko/categories/200404378">
-                      <h3 class="category">서버 설정</h3>
-                      <p>실내 장식 만큼 재미있는 것.</p>
-                  </a>
+                    <figure>
+                        <img src="../Discord/img/서버설정.svg" alt="서버설정 아이콘">
+                    </figure>
+                    <h3 class="category">서버 설정</h3>
+                    <p>실내 장식 만큼 재미있는 것.</p>
+                </a>
             </article>
             <article>
                 <a href="//support.discordapp.com/hc/ko/categories/115000167372">
-                      <h3 class="category">커뮤니티 프로그램</h3>
-                      <p>HypeSquaders를 위한 광고, 파트너를 위한 파티</p>
-                  </a>
+                    <figure>
+                        <img src="../Discord/img/커뮤니티프로그램.svg" alt="커뮤니티프로그램 아이콘">
+                    </figure>
+                    <h3 class="category">커뮤니티 프로그램</h3>
+                    <p>HypeSquaders를 위한 광고, 파트너를 위한 파티</p>
+                </a>
             </article>
             <article>
                 <a href="//support.discordapp.com/hc/ko/categories/360001025912">
-                      <h3 class="category">Nitro</h3>
-                      <p>쓰러질 때까지 쇼핑하시면 안 돼요! 저희가 도와드릴게요.</p>
-                  </a>
+                    <figure>
+                        <img src="../Discord/img/NITRO.svg" alt="NITRO 아이콘">
+                    </figure>
+                    <h3 class="category">Nitro</h3>
+                    <p>쓰러질 때까지 쇼핑하시면 안 돼요! 저희가 도와드릴게요.</p>
+                </a>
             </article>
             <article>
                 <a href="//support.discordapp.com/hc/ko/categories/360001029051">
-                      <h3 class="category">청구서</h3>
-                      <p>은행 계좌 잔액을 보는 기분.</p>
-                  </a>
+                    <figure>
+                        <img src="../Discord/img/청구서.svg" alt="청구서 아이콘">
+                    </figure>
+                    <h3 class="category">청구서</h3>
+                    <p>은행 계좌 잔액을 보는 기분.</p>
+                </a>
             </article>
             <article>
                 <a href="//support.discordapp.com/hc/ko/categories/115000168351">
-                      <h3 class="category">신뢰 &amp; 보안</h3>
-                      <p>안전하고 건전하게</p>
-                  </a>
+                    <figure>
+                        <img src="../Discord/img/신뢰-보안.svg" alt="신뢰-보안 아이콘">
+                    </figure>
+                    <h3 class="category">신뢰 &amp; 보안</h3>
+                    <p>안전하고 건전하게</p>
+                </a>
             </article>
             <article>
                 <a href="//support.discordapp.com/hc/ko/categories/115000168371">
-                      <h3 class="category">자주 묻는 질문</h3>
-                      <p>스스로 해결해 보아요.</p>
-                  </a>
+                    <figure>
+                        <img src="../Discord/img/자주묻는질문.svg" alt="자주묻는질문 아이콘">
+                    </figure>
+                    <h3 class="category">자주 묻는 질문</h3>
+                    <p>스스로 해결해 보아요.</p>
+                </a>
             </article>
-            
+        </section>
+        <section class="category-wrapper-bottom">
+            <h2>도움을 받을 수 있는 다른 방법</h2>
+            <article>
+                <a href="//support-dev.discord.com/hc/en-us">
+                    <figure>
+                        <img src="../Discord/img/게임개발자.svg" alt="게임개발자 아이콘">
+                    </figure>
+                    <h3 class="category">게임 개발자</h3>
+                    <p>디스코드에 당신의 게임을 올리고 실행해 보세요! 게임 개발자를 위한 지원은 여기에서 해 주세요!</p>
+                </a>
+            </article>
+            <article>
+                <a href="//twitter.com/discord">
+                    <figure>
+                        <img src="../Discord/img/트위터.svg" alt="트위터 아이콘">
+                    </figure>
+                    <h3 class="category">Twitter</h3>
+                    <p>질문이 있으신가요? 저희에게 트윗을 보내주세요!</p>
+                </a>
+            </article>
         </section>
     </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-top">
+                <a href="#" class="button">자세히</a>
+                <div class="app">
+                    <a href="//discord.com/login" class="app-browsers">
+                        <figure>
+                            <img src="//theme.zdassets.com/theme_assets/678183/faa4afbc252ccaa8d959cedf65f6e59b4d75b167.svg">
+                        </figure>
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.discord" class="app-android">
+                        <figure>
+                            <img src="//theme.zdassets.com/theme_assets/678183/fc0920a1ef72122cbcd69849ff4431fc8095a11b.svg">
+                        </figure>
+                    </a>
+                    <a href="https://itunes.apple.com/us/app/discord-chat-for-games/id985746746" class="app-ios">
+                        <figure>
+                            <img src="//theme.zdassets.com/theme_assets/678183/e2b9fb24a30f282977edd9c280820029e767b160.svg">
+                        </figure>
+                    </a>
+                    <a href="https://discord.com/api/download?platform=win" class="app-windows">
+                        <figure>
+                            <img src="//theme.zdassets.com/theme_assets/678183/47100981c9f8e640b597c228528f303b5b5ae4ac.svg">
+                        </figure>
+                    </a>
+                    <a href="https://discord.com/api/download?platform=osx" class="app-osx">
+                        <figure>
+                            <img src="//theme.zdassets.com/theme_assets/678183/22df88a591db1baf678cb7435a7ec52317daba6f.svg">
+                        </figure>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-nav">
+                <a href="//discord.com">
+                    <figure>
+                        <img src="../Discord/img/Discord-LOGO.svg" alt="Discord-logo-footer">
+                    </figure>
+                </a>
+                <ul class="footer-nav-left">
+                    <li><a href="//discord.com/download" class="link">다운로드</a></li>
+                    <li><a href="//support.discordapp.com" class="link">지원</a></li>
+                    <li><a href="//feedback.discord.com" class="link">피드백</a></li>
+                    <li><a href="//status.discordapp.com" class="link">상태</a></li>                                    
+                </ul>
+                <ul class="footer-nav-center">
+                    <li><a href="//discordapp.com/partners" class="link">파트너</a></li>
+                    <li><a href="//discordapp.com/hypesquad" class="link">HypeSquad</a></li>
+                    <li><a href="//merch.discordapp.com" class="link">상점</a></li>
+                    <li><a href="//discordapp.com/branding" class="link">제품 이미지</a></li>
+                </ul>
+                <ul class="footer-nav-right">
+                    <li><a href="//discordapp.com/company" class="link">회사</a></li>
+                    <li><a href="//discordapp.com/company#join" class="link">직업</a>
+                        <span class="link-sep">—</span>
+                        <span class="jop">구인</span>
+                    </li>
+                    <li><a href="//blog.discordapp.com/" class="link">블로그</a></li>
+                    <li><a href="//discordapp.com/tos" class="link">조건</a>
+                        <span class="link-sep">&amp;</span>
+                        <a href="//discordapp.com/privacy" class="link">개인 정보 보호</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <div id="support">
+        <figure>
+            <svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><g id="Layer_4"><path d="M11,12.3V13c0,0-1.8,0-2,0v-0.6c0-0.6,0.1-1.4,0.8-2.1c0.7-0.7,1.6-1.2,1.6-2.1c0-0.9-0.7-1.4-1.4-1.4 c-1.3,0-1.4,1.4-1.5,1.7H6.6C6.6,7.1,7.2,5,10,5c2.4,0,3.4,1.6,3.4,3C13.4,10.4,11,10.8,11,12.3z"></path><circle cx="10" cy="15" r="1"></circle><path d="M10,2c4.4,0,8,3.6,8,8s-3.6,8-8,8s-8-3.6-8-8S5.6,2,10,2 M10,0C4.5,0,0,4.5,0,10s4.5,10,10,10s10-4.5,10-10S15.5,0,10,0 L10,0z"></path></g></svg>
+        </figure>
+        <p>고객센터</p>
+        <iframe src="" frameborder="0"></iframe>
+    </div>
 </body>
 </html>
