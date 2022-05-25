@@ -42,8 +42,8 @@ header {
     margin-left: 20px;
 }
 
-.dropdown-chevron-icon {
-}
+/* .dropdown-chevron-icon {
+} */
 
 .nav li , a {
     color: var(--font-blue);
@@ -132,7 +132,8 @@ header {
 .category-wrapper {
     width: 100%;
     height: 620px;
-    margin: 45px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 article {
@@ -184,6 +185,8 @@ h2 {
     width: 100%;
     height: 400px;
     margin: 45px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .category-wrapper-bottom article {
@@ -235,7 +238,7 @@ footer {
     height: 2px;
     color: var(--font-gray);
     position: absolute;
-    z-index: 30;
+    z-index: 3;
 } */
 
 .footer-nav {
