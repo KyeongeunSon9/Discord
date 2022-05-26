@@ -9,29 +9,32 @@
     <link rel="stylesheet" href="css/discord.css">
 </head>
 <body>
+    <fieldset></fieldset>
     <header>
-        <div class="LOGO">
-            <a href="https://support.discord.com/hc/ko" alt="refresh">
-                <figure>
-                    <img src="img/Main-LOGO.svg" alt="Discord 헬프 센터 홈 페이지">
-                </figure>
-                <span class="hidden">Discord</span>
-            </a>
-        </div>
-        <nav class="nav-wrapper">
-            <ul class="nav">
-                <li><a href="https://support.discord.com/hc/ko/community/topics">피드백</a></li>
-                <li><a href="#">한국어</a>
+        <div class="header-container">
+            <div class="LOGO">
+                <a href="https://support.discord.com/hc/ko" alt="refresh">
                     <figure>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" focusable="false" viewBox="0 0 12 12" class="dropdown-chevron-icon">
-                            <path fill="none" stroke="currentColor" stroke-linecap="round" d="M3 4.5l2.6 2.6c.2.2.5.2.7 0L9 4.5"></path>
-                          </svg>
+                        <img src="img/Main-LOGO.svg" alt="Discord 헬프 센터 홈 페이지">
                     </figure>
-                </li>
-                <li><a href="https://support.discord.com/hc/ko/requests/new">문의 등록</a></li>
-            </ul>
-            <a class="login" href="#">로그인</a>
-        </nav>
+                    <span class="hidden">Discord</span>
+                </a>
+            </div>
+            <nav class="nav-wrapper">
+                <ul class="nav">
+                    <li><a href="https://support.discord.com/hc/ko/community/topics">피드백</a></li>
+                    <li><a href="#">한국어</a>
+                        <figure>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" focusable="false" viewBox="0 0 12 12" class="dropdown-chevron-icon">
+                                <path fill="none" stroke="currentColor" stroke-linecap="round" d="M3 4.5l2.6 2.6c.2.2.5.2.7 0L9 4.5"></path>
+                            </svg>
+                        </figure>
+                    </li>
+                    <li><a href="https://support.discord.com/hc/ko/requests/new">문의 등록</a></li>
+                </ul>
+                <a class="login" href="#">로그인</a>
+            </nav>
+        </div>
     </header>
 
     <main>
@@ -172,68 +175,75 @@
 
     <footer>
         <div class="footer-container">
+            <div class="button">
+                <a href="https://discord.com/">자세히</a>
+            </div>
             <div class="footer-top">
-                <div class="button">
-                    <a href="https://discord.com/">자세히</a>
-                </div>
-                <div class="app">
-                    <a href="//discord.com/login" class="app-browsers">
-                        <figure>
-                            <img src="img/browser.svg" alt="브라우저 아이콘">
-                        </figure>
-                    </a>
-                    <a href="https://play.google.com/store/apps/details?id=com.discord" class="app-android">
-                        <figure>
-                            <img src="img/안드로이드.svg" alt="안드로이드 아이콘">
-                        </figure>
-                    </a>
-                    <a href="https://itunes.apple.com/us/app/discord-chat-for-games/id985746746" class="app-ios">
-                        <figure>
-                            <img src="img/Apple.svg" alt="애플 아이콘">
-                        </figure>
-                    </a>
-                    <a href="https://discord.com/api/download?platform=win" class="app-windows">
-                        <figure>
-                            <img src="img/윈도우.svg" alt="윈도우 아이콘">
-                        </figure>
-                    </a>
-                    <a href="https://discord.com/api/download?platform=osx" class="app-osx">
-                        <figure>
-                            <img src="img/X박스.svg" alt="X박스 아이콘">
-                        </figure>
-                    </a>
+                <div class="browser-background">
+                    <figure>
+                        <img src="/img/pc기기.png" alt="pc">
+                    </figure>
+                    <div class="app">
+                        <a href="//discord.com/login" class="app-browsers" class="footer-icon">
+                            <figure>
+                                <img src="img/browser.svg" alt="브라우저 아이콘">
+                            </figure>
+                        </a>
+                        <a href="https://play.google.com/store/apps/details?id=com.discord" class="app-android" class="footer-icon">
+                            <figure>
+                                <img src="img/안드로이드.svg" alt="안드로이드 아이콘">
+                            </figure>
+                        </a>
+                        <a href="https://itunes.apple.com/us/app/discord-chat-for-games/id985746746" class="app-ios" class="footer-icon">
+                            <figure>
+                                <img src="img/Apple.svg" alt="애플 아이콘">
+                            </figure>
+                        </a>
+                        <a href="https://discord.com/api/download?platform=win" class="app-windows" class="footer-icon">
+                            <figure>
+                                <img src="img/윈도우.svg" alt="윈도우 아이콘">
+                            </figure>
+                        </a>
+                        <a href="https://discord.com/api/download?platform=osx" class="app-osx" class="footer-icon">
+                            <figure>
+                                <img src="img/X박스.svg" alt="X박스 아이콘">
+                            </figure>
+                        </a>
+                    </div>
                 </div>
             </div>
-            <div class="footer-nav">
+            <div class="footer-bottom">
                 <a href="//discord.com" class="footer-logo">
                     <figure>
                         <img src="img/Discord-LOGO.svg" alt="footer-logo">
                     </figure>
                 </a>
-                <ul class="footer-nav-left">
-                    <li><a href="//discord.com/download" class="link">다운로드</a></li>
-                    <li><a href="//support.discordapp.com" class="link">지원</a></li>
-                    <li><a href="//feedback.discord.com" class="link">피드백</a></li>
-                    <li><a href="//status.discordapp.com" class="link">상태</a></li>                                    
-                </ul>
-                <ul class="footer-nav-center">
-                    <li><a href="//discordapp.com/partners" class="link">파트너</a></li>
-                    <li><a href="//discordapp.com/hypesquad" class="link">HypeSquad</a></li>
-                    <li><a href="//merch.discordapp.com" class="link">상점</a></li>
-                    <li><a href="//discordapp.com/branding" class="link">제품 이미지</a></li>
-                </ul>
-                <ul class="footer-nav-right">
-                    <li><a href="//discordapp.com/company" class="link">회사</a></li>
-                    <li><a href="//discordapp.com/company#join" class="link">직업</a>
-                        <span class="link-sep">—</span>
-                        <span class="jop">구인</span>
-                    </li>
-                    <li><a href="//blog.discordapp.com/" class="link">블로그</a></li>
-                    <li><a href="//discordapp.com/tos" class="link">조건</a>
-                        <span class="link-sep">&amp;</span>
-                        <a href="//discordapp.com/privacy" class="link">개인 정보 보호</a>
-                    </li>
-                </ul>
+                <div class="footer-nav-wrapper">
+                    <ul class="footer-nav-left">
+                        <li><a href="//discord.com/download" class="link">다운로드</a></li>
+                        <li><a href="//support.discordapp.com" class="link">지원</a></li>
+                        <li><a href="//feedback.discord.com" class="link">피드백</a></li>
+                        <li><a href="//status.discordapp.com" class="link">상태</a></li>                                    
+                    </ul>
+                    <ul class="footer-nav-center">
+                        <li><a href="//discordapp.com/partners" class="link">파트너</a></li>
+                        <li><a href="//discordapp.com/hypesquad" class="link">HypeSquad</a></li>
+                        <li><a href="//merch.discordapp.com" class="link">상점</a></li>
+                        <li><a href="//discordapp.com/branding" class="link">제품 이미지</a></li>
+                    </ul>
+                    <ul class="footer-nav-right">
+                        <li><a href="//discordapp.com/company" class="link">회사</a></li>
+                        <li><a href="//discordapp.com/company#join" class="link">직업</a>
+                            <span class="link-sep">—</span>
+                            <span class="jop">구인</span>
+                        </li>
+                        <li><a href="//blog.discordapp.com/" class="link">블로그</a></li>
+                        <li><a href="//discordapp.com/tos" class="link">조건</a>
+                            <span class="link-sep">&amp;</span>
+                            <a href="//discordapp.com/privacy" class="link">개인 정보 보호</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </footer>
