@@ -146,7 +146,8 @@ header {
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
-    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-bottom: 60px;
 }
 
 article {
@@ -201,10 +202,10 @@ h2 {
 
 .category-wrapper-bottom {
     width: 100%;
-    height: 420px;
+    height: 380px;
     display: flex;
     justify-content: center;
-    margin-top: 40px;
+    margin-top: 35px;
 }
 
 .category-wrapper-bottom article {
@@ -215,7 +216,7 @@ h2 {
 
 footer {
     background-color: var(--footer-background-color);
-    height: 600px;
+    height: 530px;
 }
 
 .footer-container {
@@ -246,6 +247,11 @@ footer {
     color: var(--font-white);
 }
 
+.button:hover {
+    box-shadow: 0px 10px 25px rgb(000 000 000 / 40%);
+    transition: 0.4s;
+}
+
 .footer-top {
     width: 1060px;
     height: 160px;
@@ -269,6 +275,7 @@ footer {
 
 .app a figure {
     height: 40px;
+    opacity: 40%;
 }
 
 .footer-icon {
@@ -301,18 +308,17 @@ footer {
 }
 
 .app figure:hover {
-    opacity: 0.5;
+    opacity: 90%;
     transition: 0.2s;
 }
 
 .footer-bottom {
-    width: 1000px;
+    width: 920px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     margin: 0 auto;
-    border-top: 1px solid var(--font-gray);
-    padding: 50px 0px;
+    border-top: 1px solid var(--font-dark-gray);
+    padding: 40px 0px;
 }
 
 .footer-nav-wrapper {
@@ -324,12 +330,13 @@ footer {
 }
 
 .footer-logo {
-    display: flex;
-    width: 160px;
+    width: 140px;
 }
 
 .footer-nav-wrapper li {
-    margin-bottom: 18px;
+    width: 155px;
+    height: 15px;
+    margin: 0px 16px 16px 0px;
 }
 
 .footer-nav-wrapper a {
@@ -342,6 +349,11 @@ footer {
 
 .jop {
     color: var(--button-color);
+}
+
+.footer-nav-wrapper li a:hover {
+    color: var(--font-white);
+    transition: 0.4s;
 }
 
 #support {
